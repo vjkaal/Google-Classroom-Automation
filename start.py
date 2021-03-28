@@ -11,7 +11,7 @@ def time():
 
 def day():
     today=datetime.today()
-    return(today.weekday()+1)
+    return(today.weekday())
 
 
 def getLink():
