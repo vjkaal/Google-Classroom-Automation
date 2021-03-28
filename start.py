@@ -17,10 +17,8 @@ def day():
 def getLink():
     link="noClass.html"
     with open('class.csv') as csvfile:
-        #row=day()
-        row=1
-        #hour=time()
-        hour=2
+        row=day()
+        hour=time()
         #print(hour)
         csvReader=csv.reader(csvfile,delimiter=',')
         i=0
