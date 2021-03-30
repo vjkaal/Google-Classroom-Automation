@@ -11,6 +11,7 @@ def time():
 
 def day():
     today=datetime.today()
+    print(today.weekday())
     return(today.weekday())
 
 
